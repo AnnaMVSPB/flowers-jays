@@ -11,7 +11,6 @@ export const flowersDel = createAsyncThunk(
     'flowers/del', (id:number) => api.delFlowersFetch(id)
 );
 
-
 const flowersSlice = createSlice({
   name: 'flowers',
     initialState,
